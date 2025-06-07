@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Jornada na Psicologia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="conteudo-principal">
+        <h2 class="titulo-principal">Minha Jornada na Psicologia<span>_</span></h2>
+        <div class="conteudo">
+            <div class="botoes">
+                <button class="botao ativo">Explorar Psicologia</button>
+                <button class="botao">Técnicas de Estudo</button>
+                <button class="botao">Saúde Emocional</button>
+                <button class="botao">Planejamento</button>
+                <button class="botao">Citações</button>
+                <button class="botao">Vídeos</button>
+            </div>
+            <div class="abas-textos">
+                <div class="aba-conteudo ativo">
+                    <h3 class="aba-conteudo-titulo-principal">Descobrir as áreas da Psicologia</h3>
+                    <h4 class="aba-conteudo-titulo-secundario">Tempo até o vestibular</h4>
+                    <div class="contador">
+                        <div class="contador-digito"><p class="contador-digito-numero" id="dias0"></p><p class="contador-digito-texto">dias</p></div>
+                        <div class="contador-digito"><p class="contador-digito-numero" id="horas0"></p><p class="contador-digito-texto">horas</p></div>
+                        <div class="contador-digito"><p class="contador-digito-numero" id="min0"></p><p class="contador-digito-texto">min</p></div>
+                        <div class="contador-digito"><p class="contador-digito-numero" id="seg0"></p><p class="contador-digito-texto">seg</p></div>
+                    </div>
+                </div>
+                <div class="aba-conteudo">
+                    <h3 class="aba-conteudo-titulo-principal">Métodos de Estudo para Psicologia</h3>
+                    <ul class="checklist">
+                        <li><label><input type="checkbox"> Cronograma de leitura e resumos</label></li>
+                        <li><label><input type="checkbox"> Leitura de obras clássicas</label></li>
+                        <li><label><input type="checkbox"> Estudo ativo com fichamentos</label></li>
+                        <li><label><input type="checkbox"> Participar de grupos de discussão</label></li>
+                    </ul>
+                </div>
+                <div class="aba-conteudo">
+                    <h3 class="aba-conteudo-titulo-principal">Cuidar da saúde emocional e bem-estar</h3>
+                    <ul class="checklist">
+                        <li><label><input type="checkbox"> Praticar meditação e mindfulness</label></li>
+                        <li><label><input type="checkbox"> Registrar emoções em um diário</label></li>
+                        <li><label><input type="checkbox"> Conversar com amigos e mentores</label></li>
+                        <li><label><input type="checkbox"> Estabelecer rotinas saudáveis</label></li>
+                    </ul>
+                </div>
+                <div class="aba-conteudo">
+                    <h3 class="aba-conteudo-titulo-principal">Planejamento para o curso de Psicologia</h3>
+                    <ul class="checklist">
+                        <li><label><input type="checkbox"> Pesquisar universidades</label></li>
+                        <li><label><input type="checkbox"> Verificar documentos necessários</label></li>
+                        <li><label><input type="checkbox"> Conhecer áreas de atuação</label></li>
+                        <li><label><input type="checkbox"> Fazer plano de carreira</label></li>
+                    </ul>
+                </div>
+                <div class="aba-conteudo">
+                    <h3 class="aba-conteudo-titulo-principal">Citações de psicólogos famosos</h3>
+                    <ul>
+                        <li>“Conhece-te a ti mesmo.” – Sócrates</li>
+                        <li>“A mente que se abre a uma nova ideia jamais volta ao seu tamanho original.” – Albert Einstein</li>
+                        <li>“Você é aquilo que faz repetidamente.” – Aristóteles</li>
+                        <li>“Quem olha para fora, sonha; quem olha para dentro, desperta.” – Carl Jung</li>
+                    </ul>
+                </div>
+                <div class="aba-conteudo">
+                    <h3 class="aba-conteudo-titulo-principal">Vídeos motivacionais sobre Psicologia</h3>
+                    <ul>
+                        <li><iframe width="100%" height="315" src="https://www.youtube.com/embed/U6OoCaGsz94?hl=pt&cc_load_policy=1" title="TEDx: O poder da mente" frameborder="0" allowfullscreen></iframe></li>
+                        <li><iframe width="100%" height="315" src="https://www.youtube.com/embed/lGsB2uRiMQA?hl=pt&cc_load_policy=1" title="Por que Psicologia? Experiências reais" frameborder="0" allowfullscreen></iframe></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+    <audio id="musicaFundo" autoplay loop><source src="musica.mp3" type="audio/mpeg"></audio>
+    <audio id="somCheckbox"><source src="efeito.mp3" type="audio/mpeg"></audio>
+</body>
+</html>
